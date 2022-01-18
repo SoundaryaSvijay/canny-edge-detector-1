@@ -8,7 +8,7 @@ mkdir -p $TOP/usr
 cd $TOP/src
 curl -L https://www.imagemagick.org/download/ImageMagick.tar.gz | tar zx
 
-# configure
+# configur
 cd $(ls -d */ | head -n 1)
 ./configure --prefix=$TOP/usr
 
