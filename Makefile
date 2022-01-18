@@ -52,7 +52,7 @@ $(PROJ):
 %.d: %.cpp
 	$(CC) $(DEPOPTS) $< -MT "$*.o $*.d" -MF $*.d $(INC)
 
-# Compile object file for every cpp file
+# Compile object file for every cpp fil
 %.o: %.cpp
 	$(CC) -c $(CFLAGS) -o $@ $< $(INC)
 
